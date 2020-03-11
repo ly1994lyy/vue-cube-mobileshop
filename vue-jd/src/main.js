@@ -1,15 +1,12 @@
 import Vue from 'vue'
-import './plugins/axios'
+import './cube-ui'
 import './cube-ui'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-import axios from 'axios'
-import interceptor from './http-interceptor'
+import 'amfe-flexible'
 
 Vue.config.productionTip = false
-
-Vue.prototype.$http = axios
 
 new Vue({
   router,
